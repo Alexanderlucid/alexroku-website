@@ -325,8 +325,11 @@ code,pre{
 
 /* MOBILE */
 @media(max-width:500px){
+    .navbar,.showcase,.stats,.cli,.cloud,.languages,.footer{
+        max-width: 100%;
+    }
     .container{
-         max-width:100%; /*i am supposed to edit this*/
+         max-width:95%; /*i am supposed to edit this*/
     }
     .navbar{
         height: 100px;
