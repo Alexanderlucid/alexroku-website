@@ -340,10 +340,13 @@ code,pre{
 
 /* For Screens smaller than 400 pixels */
 @media(max-width:400px){
-    .navbar,.showcase,.stats,.cli,.cloud,.languages,.footer{
-        width: 100%;
+    body{
+        width: fit-content;
     }
-    .container{
-        max-width:95%; /*i am supposed to edit this*/
-   }
+    /* .navbar,.showcase,.stats,.cli,.cloud,.languages,.footer{
+        width: 100%;
+    } */
+    /* .container{
+        width:fit-content;
+   }*/
 }
