@@ -325,6 +325,9 @@ code,pre{
 
 /* MOBILE */
 @media(max-width:500px){
+    .container{
+         max-width:100%; /*i am supposed to edit this*/
+    }
     .navbar{
         height: 100px;
         overflow: hidden;
