@@ -342,11 +342,12 @@ code,pre{
 @media(max-width:400px){
     body{
         width: fit-content;
+        overflow: auto;
     }
-    /* .navbar,.showcase,.stats,.cli,.cloud,.languages,.footer{
+    .navbar,.showcase,.stats,.cli,.cloud,.languages,.footer{
         width: 100%;
-    } */
-    /* .container{
-        width:fit-content;
-   }*/
+    }
+    .container{
+        width: 95%;
+   }
 }
