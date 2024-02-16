@@ -325,12 +325,6 @@ code,pre{
 
 /* MOBILE */
 @media(max-width:500px){
-    .navbar,.showcase,.stats,.cli,.cloud,.languages,.footer{
-        max-width: 100%;
-    }
-    .container{
-         max-width:95%; /*i am supposed to edit this*/
-    }
     .navbar{
         height: 100px;
         overflow: hidden;
@@ -342,4 +336,14 @@ code,pre{
         padding: 10px;
         background-color: rgba(0, 0, 0, 0.1);
     }
+}
+
+/* For Screens smaller than 400 pixels */
+@media(max-width:400px){
+    .navbar,.showcase,.stats,.cli,.cloud,.languages,.footer{
+        width: 100%;
+    }
+    .container{
+        max-width:95%; /*i am supposed to edit this*/
+   }
 }
