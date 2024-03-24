@@ -351,7 +351,8 @@ code,pre{
         width: 95%;
    }
    .showcase-form{
-    height: 250px;
-    width: 300px;
+    height: fit-content;
+    width: 280px;
+    overflow-x: hidden;
     }
 }
