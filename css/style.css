@@ -350,4 +350,8 @@ code,pre{
     .container{
         width: 95%;
    }
+   .showcase-form{
+    height: 250px;
+    width: 300px;
+    }
 }
